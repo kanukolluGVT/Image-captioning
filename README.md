@@ -10,7 +10,7 @@ This code was running on Google Collab with Tensorflow
 
 required libraried
 
-ntroduction to Deep Learning course resources
+Introduction to Deep Learning course resources
 https://www.coursera.org/learn/intro-to-deep-learning
 
 Running on Google Colab (tested for all weeks)
