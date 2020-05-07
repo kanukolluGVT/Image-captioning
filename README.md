@@ -8,7 +8,18 @@ LSTM
 
 This code was running on Google Collab with Tensorflow
 
-required libraried
+required libraries
+tensor flow 3.x
+sys,
+grading,
+download_utils.py(provided in the repo),matplotlib,
+json,
+collections,
+random,
+grading_utils.py,
+os,
+keras_utils,
+tqdm_utils.
 
 Introduction to Deep Learning course resources
 https://www.coursera.org/learn/intro-to-deep-learning
@@ -27,14 +38,7 @@ Execute the following code in the first cell that downloads dependencies (change
 ! shred -u setup_google_colab.py
 ! wget https://raw.githubusercontent.com/hse-aml/intro-to-dl/master/setup_google_colab.py -O setup_google_colab.py
 import setup_google_colab
-# please, uncomment the week you're working on
-# setup_google_colab.setup_week1()
-# setup_google_colab.setup_week2()
-# setup_google_colab.setup_week2_honor()
-# setup_google_colab.setup_week3()
-# setup_google_colab.setup_week4()
-# setup_google_colab.setup_week5()
-# setup_google_colab.setup_week6()
+setup_google_colab.setup_week6()
 If you run many notebooks on Colab, they can continue to eat up memory, you can kill them with ! pkill -9 python3 and check with ! nvidia-smi that GPU memory is freed.
 Known issues:
 
